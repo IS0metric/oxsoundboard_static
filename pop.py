@@ -43,7 +43,7 @@ for line in data:
         db.session.add(sound)
         print("Done")
     else:
-        print("\t\tAlready in DB - Skipping")
+        print("\tAlready in DB - Skipping")
 
 print("Commiting...")
 db.session.commit()
